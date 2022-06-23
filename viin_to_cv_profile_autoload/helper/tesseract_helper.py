@@ -47,11 +47,3 @@ class TesseractHeplperPDFScan():
         self.__reading_jpg(False)
         return self.extracted_information
 
-
-if __name__ == '__main__':
-    ts = TesseractHeplperPDFScan('./converted_images/mau-cong-van-de-nghi-1-e1577117362136.jpg')
-    ts.Scann_image()
-    print(ts.extracted_information)
-    f = open('ext.txt', 'w')
-    f.write(ts.extracted_information)
-    f.close()

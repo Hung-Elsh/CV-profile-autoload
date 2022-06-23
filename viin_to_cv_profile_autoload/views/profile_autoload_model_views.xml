@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="profile_autoload_model_action"
+			model="ir.actions.act_window">
+			<field name="name">Profile Autoload</field>
+			<field name="res_model">profile.autoload.model</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem name="Profile" id="profile_model_menu"
+			action="profile_autoload_model_action"
+			parent="cv_profile_autoload_menu_root" sequence="3" />
+
+		<record id="profile_autoload_model_view_tree"
+			model="ir.ui.view">
+			<field name='name'>profile.autoload.model.view.tree</field>
+			<field name='model'>profile.autoload.model</field>
+			<field name='arch' type='xml'>
+				<tree>
+					<field name="id" />
+					<field name="name" />
+					<field name="address" />
+				</tree>
+
+			</field>
+		</record>
+
+		<record id="profile_autoload_model_view_form"
+			model="ir.ui.view">
+			<field name='name'>profile.autoload.model.view.form</field>
+			<field name='model'>profile.autoload.model</field>
+			<field name='arch' type='xml'>
+				<form>
+					<sheet>
+						<notebook>
+							<page string="Bản ghi" sequence="1">
+								<group>
+									<field name="name" />
+									<field name="id_card_number" />
+									<field name="gender" />
+									<field name="birthday" />
+									<field name="place_of_birth" />
+									<field name="address" />
+								</group>
+								<group>
+									<field name="education" />
+									<field name="experience" />
+									<field name="admission_date_of_young_union" />
+									<field name="young_union_admissin_place" />
+									<field name="admission_date_of_communist_union" />
+									<field name="communist_union_admissin_place" />
+								</group>
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

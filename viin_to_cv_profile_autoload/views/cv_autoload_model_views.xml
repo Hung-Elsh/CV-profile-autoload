@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+	<data>
+		<record id="cv_autoload_model_action"
+			model="ir.actions.act_window">
+			<field name="name">Personal CV Autoload</field>
+			<field name="res_model">cv.autoload.model</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem name="Personal CV" id="personal_cv_model_menu"
+			action="cv_autoload_model_action"
+			parent="cv_profile_autoload_menu_root" sequence="2" />
+
+		<record id="cv_autoload_model_view_tree" model="ir.ui.view">
+			<field name='name'>cv.autoload.model.view.tree</field>
+			<field name='model'>cv.autoload.model</field>
+			<field name='arch' type='xml'>
+				<tree>
+					<field name="id" />
+					<field name="name" />
+					<field name="phone_number" />
+					<field name="work_email" />
+				</tree>
+
+			</field>
+		</record>
+
+		<record id="cv_autoload_model_view_form" model="ir.ui.view">
+			<field name='name'>cv.autoload.model.view.form</field>
+			<field name='model'>cv.autoload.model</field>
+			<field name='arch' type='xml'>
+				<form>
+					<sheet>
+						<notebook>
+							<page string="Bản ghi" sequence="1">
+								<group>
+									<field name="name" />
+									<field name="gender" />
+									<field name="birthday" />
+									<field name="address" />
+									<field name="education" />
+								</group>
+								<group>
+									<field name="phone_number" />
+									<field name="work_phone_number" />
+									<field name="work_email" />
+									<field name="experience" />
+									<field name="skills" />
+								</group>
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+	</data>
+</odoo>

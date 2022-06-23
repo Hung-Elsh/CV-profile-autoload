@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fluent-alliance-354106",
+  "private_key_id": "5b30fd80868b1a8b2d6547ba99ca600fb740f1b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8t8G2xC7aV0NP\n9/pKNKAPuqEWefaszww0gEFhp0oN4NwdHg2zw7JXFnSHnO7jGL3bqHSH0+8a0x7n\n9X95rmwiGARPFr1hp9UWeyKcBRBr/Cho327VzDJquY3bz84PyYvANcZ9l9R6wBky\nsR/Zyc4IP+Sfo/K7nhU5y5JIbEvLPm8exM2BsRq/2c3uoeWvNmuC9+KG96cMwQt6\nj84Lc2AJmyECIliqucOyayDM1W8hsd8ym4g2tw0t6t+dgs/For3zAFHH6RfTfA+7\nBt6axrJ0o7qpa3ixXsz3bvPaAzkRJ2jHGS6Y4TOWS0XsrEVHx/wlgekalZZI+Kom\n3K7hWtgDAgMBAAECggEACKy3slOFRdMSDIh9EFEn9GEjS3myvZHM4VLt7nO2ozmt\nVIdPoO5Dcd5d3+f2USkPfRvas22qBYUj3Ay8XdcHMHADLrGAZg9Fa8GgPyS6cwRF\nxUBUA27d+GrsGukL80zT6DNwmtBSW4wd/GcI7EVq+5UYSMBMBZTIK/5wDHUx7Lcv\nOKqDZ8I8HxYdn00nkRWKtR0Skg5HSeBAW3qK5Xkc3EW26moyBfsMRcz/BmmFiMLT\nFi5xQVMQUKPNiYvCOpW6NAbyt4AAfXSOsDtzyZIbPXcVAk1s3X6CB32gJs9grTb5\nC9zX5PGTVIEUQWBbiA1BWxoWUy/X5JurIoYyMFi8zQKBgQDsa/469alcHnJoMHSG\njZp0c2gx/qz1IQYQEVkDp6fpdySgsxof9cVPgIANv4U9QeVuoNFOoPwY/PL8NLAi\nL4/yfISxjFM0EFK9oGiLfA1vcQlLTO/MwxwGmNnFf8sIoOt/MvC9ipAd8kdUg9dk\nvxZYd+MyCiV8UhDBYLwmuOqkBwKBgQDMWHccXDeu4cxK5X/FK8wqgKUWtYN5cGEu\ngadw8qTlkJZEeOrdznwvzK9kLCghtEI74cDBUQo6SChamxAjIDX+g4OtnxPfTfiS\nqeGrSLZjeFZeau9mK2oIhqMl5wcShJLos0/vZUuqQztT0bqVdmYkpXeA3dxmk9Ca\ntEDZLpsFJQKBgQCw36JVbdCEkGq7M/UZbPruwCBltsiio1Ar2S6lI1rluTL33sZe\nvroc3l/u6Se/SnthJoMwthOkhikrMifLi5W/rhR/2CGvQ78DCuzr3aUXiJOReD+3\nCwj+jn/t18uH6wwEH5In23AyVz2yJuiQAL2w9hBNMXYV6jeK1Nouhg1VJQKBgQCG\nFlayaWCwhMIFM2sP+plSGnA54omPGkrqtXEmEFJbwPCZpa6YNXIP+4Pre34p/5qm\nqJBPSdooPEkeizmfkvdbNvkk6Imlsgg2VPsb5e6ofsJN2mWU6U/+oDpWGK7vW8b6\now8Ey7dG1i8L5UdF5BdKXLl5+hsxxDTSDw2udYKLcQKBgGXrA3VLEZQv6ZtgYjyl\n7U/EDl7/i8Ai9eqrSGuibXTlegZ2B6vuxvJzW3g3ko061KWlxPgbh2jaF9ylAmli\na137DQcMNACiMAqhi+HgC9k5w/k1shqxzqW/AlbXEJXSInzNbiFxrMKFqStCFdrI\nU4SB8jZ89yhUHP9VPv7st57D\n-----END PRIVATE KEY-----\n",
+  "client_email": "hungbui@fluent-alliance-354106.iam.gserviceaccount.com",
+  "client_id": "112064331005501384124",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hungbui%40fluent-alliance-354106.iam.gserviceaccount.com"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="cv_profile_autoload_action"
+			model="ir.actions.act_window">
+			<field name="name">CV-Profile Autoload</field>
+			<field name="res_model">cv.profile.autoload.wizard.model</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+
+		<menuitem name="CV-Profile"
+			id="cv_profile_autoload_menu_root" sequence="1" />
+
+		<menuitem name="Upload" id="cv_profile_autoload_menu"
+			action="cv_profile_autoload_action"
+			parent="cv_profile_autoload_menu_root" sequence="1" />
+
+		<record id="cv_profile_autoload_wizard_view_tree"
+			model="ir.ui.view">
+			<field name='name'>cv.profile.autoload.view.tree</field>
+			<field name='model'>cv.profile.autoload.wizard.model</field>
+			<field name='arch' type='xml'>
+				<tree>
+					<field name="id" />
+					<field name="model_type" />
+				</tree>
+
+			</field>
+		</record>
+
+		<record id="cv_profile_autoload_wizard_view_form"
+			model="ir.ui.view">
+			<field name='name'>cv.profile.autoload.view.form</field>
+			<field name='model'>cv.profile.autoload.wizard.model</field>
+			<field name='arch' type='xml'>
+				<form string="Ảnh">
+					<sheet>
+						<group>
+							<group>
+								<field name="profile_capture" widget="image" />
+							</group>
+							<group>
+								<field name="cv_pdf" widget="pdf_viewer" />
+							</group>
+						</group>
+
+						<div class="oe_title">
+							<label for="model_type"></label>
+							<h3>
+								<field name="model_type" />
+							</h3>
+						</div>
+
+						<notebook>
+							<page string="Bản ghi" sequence="1">
+								<field name="read_data" />
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>
